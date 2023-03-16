@@ -1,0 +1,162 @@
+
+  .main{
+
+    color: white;
+}
+
+.con{
+    text-align: center;
+    font-size: 40px;
+  padding-top: 10%;
+  
+}
+
+.inp{
+    /* padding-left: 30px; */
+    width:55%;
+height:134px;
+    border-radius: 12px;
+
+    color: white;
+ 
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+background-image: linear-gradient(#000000, #000000), 
+linear-gradient( #7b72cc,#dc0078,#3871d6);
+
+
+
+}
+
+.btn{
+  
+    width: 155px;
+    height: 55px;
+    border-radius: 43.48px;
+
+    color: white;
+
+    font-weight: 450;
+font-size: 20px;
+line-height: 23px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+}
+
+.co{
+    /* margin-left:-60%; */
+    font-size: 12px; 
+    margin-top: 7% ;
+    font-size: 50px;
+}
+.bi-share-fill{
+    float: right;
+    margin-right:6%; 
+    margin-top:-10%
+}
+
+
+.border{ 
+        
+    border: double 3px transparent; 
+    background-image: linear-gradient(#141923, #141923), 
+            linear-gradient( #7b72cc,#dc0078,#3871d6);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    
+    
+    /* outline: none;
+    background-color: #d9d9d92c;
+    border-top: 3px solid  #7b72cc;
+    border-bottom: 3px solid #7b72cc;
+    border-right: 3px solid #dc0078;
+    border-left: 3px solid #dc0078; */
+    
+    }
+    
+    .bg_bl{
+        background-image: linear-gradient(#000000, #000000), 
+            linear-gradient( #7b72cc,#dc0078,#3871d6);
+            margin-top: -30px; margin-left: 25%;float: left;
+    }
+    
+
+  @media only screen and (max-width: 850px) {
+    .con{
+        padding-top: 30%;
+    }
+
+    .inp{
+width:80%;
+height: 88px;
+margin-top: 1%;
+    }
+    .bg_bl{
+        margin-left: 10%;
+    }
+    .tex{
+        font-size: 30px;
+    }
+.btn{
+    margin-top: 1%;
+}
+
+.co{
+    /* margin-left:5px; */
+    margin-top: 30px;
+    font-size: 40px; 
+    /* margin-top: 8% ; */
+    /* font-size: 50px; */
+}
+
+.bi-share-fill{
+    margin-top: -13%;
+}
+  }
+
+
+  
+
+@media only screen and (max-width: 530px) {
+    .con{
+        padding-top: 40%;
+    }
+
+    .inp{
+width:75%;
+height: 88px;
+margin-top: 1%;
+margin-left: 13%;
+
+    }
+    .tex{
+        font-size: 20px;
+    }
+.btn{
+    margin-top: 15%;
+}
+
+.co{
+    /* margin-left:5px; */
+    font-size: 40px; 
+    /* margin-top: 8% ; */
+    /* font-size: 50px; */
+}
+
+.bi-share-fill{
+    margin-top: -20%;
+}
+  }
+
+
+  @media only screen and (max-width: 400px) {
+
+    .btn{
+        margin-left: 2%;
+    }
+
+  }
+ 
